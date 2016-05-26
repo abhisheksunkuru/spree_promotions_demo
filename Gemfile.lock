@@ -1,17 +1,7 @@
 GIT
-  remote: git://github.com/spree/spree_auth_devise.git
-  revision: 5a3857f8745736de6a7d4030c4a2c0493a3eb574
+  remote: git://github.com/spree/spree.git
+  revision: bfd796d5592e88f66f1152a0973cbf354af59510
   branch: 2-4-stable
-  specs:
-    spree_auth_devise (2.4.0)
-      devise (~> 3.5.4)
-      devise-encryptable (= 0.1.2)
-      json
-      multi_json
-      spree_core (~> 2.4.0)
-
-PATH
-  remote: ..
   specs:
     spree (2.4.11.beta)
       spree_api (= 2.4.11.beta)
@@ -62,6 +52,18 @@ PATH
       spree_core (= 2.4.11.beta)
     spree_sample (2.4.11.beta)
       spree_core (= 2.4.11.beta)
+
+GIT
+  remote: git://github.com/spree/spree_auth_devise.git
+  revision: 5a3857f8745736de6a7d4030c4a2c0493a3eb574
+  branch: 2-4-stable
+  specs:
+    spree_auth_devise (2.4.0)
+      devise (~> 3.5.4)
+      devise-encryptable (= 0.1.2)
+      json
+      multi_json
+      spree_core (~> 2.4.0)
 
 GEM
   remote: https://rubygems.org/
