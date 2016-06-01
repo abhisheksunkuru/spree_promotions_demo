@@ -51,3 +51,4 @@ group :test, :development do
     gem 'pry-byebug'
   end
 end
+gem "rails_12factor"
