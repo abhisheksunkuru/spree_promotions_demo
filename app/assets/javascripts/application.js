@@ -15,4 +15,5 @@
 //= require turbolinks
 //= require_tree .
 //= require spree/backend/option_value_picker
+//= require pagination
 

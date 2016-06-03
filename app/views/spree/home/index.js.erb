@@ -1,0 +1,12 @@
+$('#load_progress').remove();
+$('div[data-hook=homepage_products]').append("<%=j render('spree/shared/products', { :products => @products })%>");
+
+<% if @products.next_page%>
+  $('.pagination').replaceWith("<%=j paginate %>");
+  $('#loader-gif').hide();
+<% else %>
+  $(window).off('scroll');
+  $('.pagination').remove();
+  $('#show_more').remove();
+  $('#loader-gif').remove();
+<%end%>
