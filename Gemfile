@@ -52,3 +52,4 @@ group :test, :development do
   end
 end
 gem "rails_12factor"
+gem "spree_product_zoom", :git => "git://github.com/spree/spree_product_zoom.git",branch: '2-4-stable'

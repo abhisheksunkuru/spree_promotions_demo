@@ -9,3 +9,4 @@
 //= require spree/frontend
 //= require spree/frontend/pagination
 //= require_tree .
+//= require spree/product_zoom
